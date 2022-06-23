@@ -14,7 +14,7 @@ const displayJobs = function () {
       console.log(data);
       //create elements using the dom
       data.forEach(data=>{
-        console.log(data)
+        // console.log(data)
         let job_card = document.createElement("div");
       job_card.setAttribute("class", "job-card");
 
@@ -71,7 +71,7 @@ const displayJobs = function () {
       job_card.appendChild(jobName)
       job_card.appendChild(skills)
       job_card.appendChild(postedJob)
-      console.log(job_card);
+      // console.log(job_card);
 
       
       // print to screen
@@ -87,12 +87,20 @@ const displayJobs = function () {
 };
 
 
-let form = getElementById()
 
 const formClick= function(){
+  //unhide the form
   let btn = document.getElementById('addJob')
-  btn.addEventListener('submit', ()=>{
+  btn.addEventListener('click', ()=>{
+    // alert('hello world')
+  let form = document.getElementById('formDiv')
+form.style.display = 'block'
+btn.addEventListener('click', ()=>{
+  // alert('hello world')
+let form = document.getElementById('formDiv')
+form.style.display = 'none'
+})
   })
 }
-
+formClick()
 displayJobs();
