@@ -1,4 +1,3 @@
-//
 console.log("hello world");
 
 //display list of all jobs
@@ -12,34 +11,42 @@ const displayJobs = function () {
     .then(function (data) {
       console.log(data);
       //create elements using the dom
-
-      // console.log(data)
-
       
       let job_card = document.createElement("div");
       job_card.setAttribute("class", "job-card");
 
       let jobName = document.createElement("div");
-      jobName.setAttribute("class", "job-name");
+      // jobName.setAttribute("class", "job-name");
+      jobName.className= ("job-name");
+
 
       let companyLogo = document.createElement("img");
-      companyLogo.setAttribute("class", "job-profile");
+      companyLogo.src=data.image 
+      companyLogo.className= ("job-profile");
       companyLogo.setAttribute("id", "compLogo");
-      // companyLogo.setAttribute('src', "")
 
      let skills = document.createElement("div");
       skills.setAttribute("class", "job-label");  
-
+      
+      
+      
       let jobDetails = document.createElement("div");
       jobDetails.setAttribute("class", "job-detail");
 
       let h4 = document.createElement("h4");
-      h4.setAttribute("id", "company");
+      h4.id= ("company");
+      
 
       let h3 = document.createElement("h3");
-      h3.setAttribute("id", "position");
+      // h3.setAttribute("id", "position");
+      h4.id= ("position");
+    
 
       let p = document.createElement("p");
+
+      h4.innerText = data.company;
+      h3.innerText = data.job_type;
+      p.innerText = data.description
 
       jobDetails.appendChild(h4);
       jobDetails.appendChild(h3);
@@ -49,21 +56,13 @@ const displayJobs = function () {
       job_card.appendChild(jobName)
       job_card.appendChild(skills)
       console.log(job_card);
-      let company = document.getElementById("company");
-      company.innerText = data.company;
-      let position = document.getElementById("position");
-      position.innerText = data.job_type;
-      console.log(data[1].image)
 
-      let img = document.getElementById("compLogo");
-      img.src = data.image
-
-      // img.src = data.image;
-    // companyLogo.setAttribute('src', data.image)
-
+      
       // print to screen
-      const jobs = document.getElementById("jobs");
+      let jobs = document.getElementById("jobs");
       jobs.appendChild(job_card);
+
+      console.log(jobs)
 
       // let job_type= document.getElementById("position")
     });
