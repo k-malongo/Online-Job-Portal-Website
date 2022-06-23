@@ -3,6 +3,7 @@ console.log("hello world");
 //display list of all jobs
 
 const link = "http://localhost:3000/jobs/";
+
 const displayJobs = function () {
   fetch(link)
     .then(function (response) {
@@ -84,5 +85,14 @@ const displayJobs = function () {
       // let job_type= document.getElementById("position")
     });
 };
+
+
+let form = getElementById()
+
+const formClick= function(){
+  let btn = document.getElementById('addJob')
+  btn.addEventListener('submit', ()=>{
+  })
+}
 
 displayJobs();
