@@ -2,17 +2,19 @@ console.log("hello world");
 
 //display list of all jobs
 
-const link = "http://localhost:3000/jobs/3";
+const link = "http://localhost:3000/jobs/";
 const displayJobs = function () {
   fetch(link)
     .then(function (response) {
       return response.json();
     })
     .then(function (data) {
+
       console.log(data);
       //create elements using the dom
-      
-      let job_card = document.createElement("div");
+      data.forEach(data=>{
+        console.log(data)
+        let job_card = document.createElement("div");
       job_card.setAttribute("class", "job-card");
 
       let jobName = document.createElement("div");
@@ -50,7 +52,7 @@ const displayJobs = function () {
       h4.innerText = data.company;
       h3.innerText = data.job_type;
       p.innerText = data.description
-      postedJob.innerText = data.time
+      postedJob.innerText = data.location
       data.requirements.forEach(data => {
           // console.log(data)
           let label1 = document.createElement('a')
@@ -74,8 +76,10 @@ const displayJobs = function () {
       // print to screen
       let jobs = document.getElementById("jobs");
       jobs.appendChild(job_card);
+      })
+      
 
-      console.log(jobs)
+      // console.log(jobs)
 
       // let job_type= document.getElementById("position")
     });

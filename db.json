@@ -6,7 +6,7 @@
         "image": "https://www.google.co.ke/images/branding/googlelogo/2x/googlelogo_color_160x56dp.png",
         "company": "Google",
         "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit",
-        "time":"Posted 2 min ago",
+        "location":"Nairobi",
         "requirements":[
             "Ruby",
             "R",
@@ -15,11 +15,11 @@
       },
       {
         "id": 2,
-        "job_type": "Design Engineer",
+        "job_type": "Mechanical Engineer",
         "image": "https://www.google.co.ke/images/branding/googlelogo/2x/googlelogo_color_160x56dp.png",
-        "company": "Google",
+        "company": "Tesla",
         "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit",
-        "time":"Posted 2 min ago",
+        "location":"Nairobi",
         "requirements":[
             "Ruby",
             "R",
@@ -32,7 +32,7 @@
         "image": "https://www.google.co.ke/images/branding/googlelogo/2x/googlelogo_color_160x56dp.png",
         "company": "Google",
         "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit",
-        "time":"Posted 2 min ago",
+        "location":"Nairobi",
         "requirements":[
             "Ruby",
             "R",
@@ -45,7 +45,7 @@
         "image": "https://www.google.co.ke/images/branding/googlelogo/2x/googlelogo_color_160x56dp.png",
         "company": "Google",
         "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit",
-        "time":"Posted 2 min ago",
+        "location":"Nairobi",
         "requirements":[
             "Ruby",
             "R",
@@ -54,11 +54,11 @@
       },
       {
         "id": 5,
-        "job_type": "Design Engineer",
-        "image": "https://www.google.co.ke/images/branding/googlelogo/2x/googlelogo_color_160x56dp.png",
+        "job_type": "Microsoft Excel Expert / Problem Solver",
+        "image": "https://i.roamcdn.net/kazi/ke/hq/9d017bed4ff1ea0e9f507b1c840903d9/-/advertiser-img-ke-jobs-prod/dealer-images/advid278394/adv278394_1654783727.jpg",
         "company": "Google",
-        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit",
-        "time":"Posted 2 min ago",
+        "description":"We are an online e-commerce team which helps UK companies develop their online selling platforms.",
+        "location":"Remote",
         "requirements":[
             "Ruby",
             "R",
@@ -68,10 +68,10 @@
       {
         "id": 6,
         "job_type": "Design Engineer",
-        "image": "https://www.google.co.ke/images/branding/googlelogo/2x/googlelogo_color_160x56dp.png",
+        "image": "https://i.roamcdn.net/kazi/ke/hq/0343593c5972a3175ded80902e5a6b63/-/advertiser-img-ke-jobs-prod/dealer-images/advid8713/adv8713_1482146740.jpg",
         "company": "Google",
-        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit",
-        "time":"Posted 2 min ago",
+        "description":"Deliver software development projects using Agile, specifically SAFe (Scaled Agile Framework) development methodology",
+        "location":"Nairobi",
         "requirements":[
             "Ruby",
             "R",
