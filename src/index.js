@@ -26,9 +26,12 @@ const displayJobs = function () {
       companyLogo.setAttribute("id", "compLogo");
 
      let skills = document.createElement("div");
-      skills.setAttribute("class", "job-label");  
+      skills.setAttribute("class", "job-label"); 
+     ;
+
       
-      
+      let postedJob = document .createElement("div")
+      postedJob.className =("job-posted")
       
       let jobDetails = document.createElement("div");
       jobDetails.setAttribute("class", "job-detail");
@@ -38,7 +41,7 @@ const displayJobs = function () {
       
 
       let h3 = document.createElement("h3");
-      // h3.setAttribute("id", "position");
+      h3.setAttribute("id", "position");
       h4.id= ("position");
     
 
@@ -47,6 +50,15 @@ const displayJobs = function () {
       h4.innerText = data.company;
       h3.innerText = data.job_type;
       p.innerText = data.description
+      postedJob.innerText = data.time
+      data.requirements.forEach(data => {
+          // console.log(data)
+          let label1 = document.createElement('a')
+          label1.className= ("label-a")
+          label1.innerText = data
+          skills.appendChild(label1)
+
+        });
 
       jobDetails.appendChild(h4);
       jobDetails.appendChild(h3);
@@ -55,6 +67,7 @@ const displayJobs = function () {
       jobName.appendChild(jobDetails);
       job_card.appendChild(jobName)
       job_card.appendChild(skills)
+      job_card.appendChild(postedJob)
       console.log(job_card);
 
       

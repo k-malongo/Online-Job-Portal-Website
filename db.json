@@ -2,23 +2,27 @@
     "jobs": [
       {
         "id": 1,
-        "job_type": "Software Developer",
-        "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fr1.ilikewallpaper.net%2Fiphone-wallpapers%2Fdownload-115648%2Ftesla-logo.jpg&imgrefurl=https%3A%2F%2Fwww.ilikewallpaper.net%2Fiphone%2Fnature%26landscape%2Fwallpapers%2Ftrending%2F321&tbnid=zKOffmC70fPjlM&vet=10CA8QxiAoAmoXChMImPLqy63D-AIVAAAAAB0AAAAAEAY..i&docid=6RB7cvdqPDNYOM&w=640&h=1136&itg=1&q=tesla%20logo&ved=0CA8QxiAoAmoXChMImPLqy63D-AIVAAAAAB0AAAAAEAY",
-        "company": "Tesla",
+        "job_type": "Design Engineer",
+        "image": "https://www.google.co.ke/images/branding/googlelogo/2x/googlelogo_color_160x56dp.png",
+        "company": "Google",
+        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit",
+        "time":"Posted 2 min ago",
         "requirements":[
-            "HTML",
-            "CSS",
+            "Ruby",
+            "R",
             "Javascript"
         ]
       },
       {
         "id": 2,
-        "job_type": "Software Developer",
-        "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F5%2F55%2FMicrosoft_logo_%25282012%2529_modified.svg%2F2560px-Microsoft_logo_%25282012%2529_modified.svg.png&imgrefurl=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3AMicrosoft_logo_(2012)_modified.svg&tbnid=-GrJ7Y3j19NqtM&vet=10CA8QxiAoAWoXChMI6ICKo67D-AIVAAAAAB0AAAAAEAs..i&docid=zzkbAMzprMK1EM&w=2560&h=1340&itg=1&q=microsoft%20logo&ved=0CA8QxiAoAWoXChMI6ICKo67D-AIVAAAAAB0AAAAAEAs",
-        "company": "Microsoft",
+        "job_type": "Design Engineer",
+        "image": "https://www.google.co.ke/images/branding/googlelogo/2x/googlelogo_color_160x56dp.png",
+        "company": "Google",
+        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit",
+        "time":"Posted 2 min ago",
         "requirements":[
-            "Java",
-            "Flutter",
+            "Ruby",
+            "R",
             "Javascript"
         ]
       },
@@ -28,6 +32,7 @@
         "image": "https://www.google.co.ke/images/branding/googlelogo/2x/googlelogo_color_160x56dp.png",
         "company": "Google",
         "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit",
+        "time":"Posted 2 min ago",
         "requirements":[
             "Ruby",
             "R",
@@ -36,34 +41,40 @@
       },
       {
         "id": 4,
-        "job_type": "Software Developer",
-        "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fseeklogo.com%2Fimages%2FM%2Fmoringa-school-logo-EE6600130E-seeklogo.com.png&imgrefurl=https%3A%2F%2Fseeklogo.com%2Fvector-logo%2F342283%2Fmoringa-school&tbnid=XTMwov3_IbSw2M&vet=12ahUKEwif0Ob_ssP4AhUJRhoKHaJiA5kQMygGegUIARD6AQ..i&docid=oYRoI-hwUaNxdM&w=300&h=144&q=moringa%20logo&ved=2ahUKEwif0Ob_ssP4AhUJRhoKHaJiA5kQMygGegUIARD6AQ",
-        "company": "moringa",
+        "job_type": "Design Engineer",
+        "image": "https://www.google.co.ke/images/branding/googlelogo/2x/googlelogo_color_160x56dp.png",
+        "company": "Google",
+        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit",
+        "time":"Posted 2 min ago",
         "requirements":[
-            "HTML",
-            "CSS",
+            "Ruby",
+            "R",
             "Javascript"
         ]
       },
       {
         "id": 5,
-        "job_type": "Software Developer",
-        "image": "https://thumbs.gfycat.com/EquatorialIckyCat-max-1mb.gif",
-        "company": "Tesla",
+        "job_type": "Design Engineer",
+        "image": "https://www.google.co.ke/images/branding/googlelogo/2x/googlelogo_color_160x56dp.png",
+        "company": "Google",
+        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit",
+        "time":"Posted 2 min ago",
         "requirements":[
-            "HTML",
-            "CSS",
+            "Ruby",
+            "R",
             "Javascript"
         ]
       },
       {
         "id": 6,
-        "job_type": "Software Developer",
-        "image": "https://thumbs.gfycat.com/EquatorialIckyCat-max-1mb.gif",
-        "company": "Tesla",
+        "job_type": "Design Engineer",
+        "image": "https://www.google.co.ke/images/branding/googlelogo/2x/googlelogo_color_160x56dp.png",
+        "company": "Google",
+        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit",
+        "time":"Posted 2 min ago",
         "requirements":[
-            "HTML",
-            "CSS",
+            "Ruby",
+            "R",
             "Javascript"
         ]
       }
