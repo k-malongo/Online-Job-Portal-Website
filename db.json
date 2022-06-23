@@ -5,7 +5,7 @@
         "job_type": "Design Engineer",
         "image": "https://www.google.co.ke/images/branding/googlelogo/2x/googlelogo_color_160x56dp.png",
         "company": "Google",
-        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit",
+        "description":"Deliver software development projects using Agile, specifically SAFe (Scaled Agile Framework) development methodology ",
         "location":"Nairobi",
         "requirements":[
             "Ruby",
@@ -15,40 +15,40 @@
       },
       {
         "id": 2,
-        "job_type": "Mechanical Engineer",
-        "image": "https://www.google.co.ke/images/branding/googlelogo/2x/googlelogo_color_160x56dp.png",
-        "company": "Tesla",
-        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit",
+        "job_type": "Backend Engineer",
+        "image": "https://i.roamcdn.net/kazi/ke/hq/910055825a6b1fcd5d5fa8ca61bc6824/-/advertiser-img-ke-jobs-prod/dealer-images/advid15044/adv15044_1613054515.jpg",
+        "company": "Eclectics International Ltd",
+        "description":"We are looking for experienced backend developers to join our team and be a productive member of societu",
         "location":"Nairobi",
         "requirements":[
-            "Ruby",
-            "R",
+            "node",
+            "python",
             "Javascript"
         ]
       },
       {
         "id": 3,
-        "job_type": "Design Engineer",
-        "image": "https://www.google.co.ke/images/branding/googlelogo/2x/googlelogo_color_160x56dp.png",
-        "company": "Google",
-        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit",
+        "job_type": "Junior java developer",
+        "image": "https://i.roamcdn.net/kazi/ke/hq/0fe19d4a945bd62c51fd605065cd3a64/-/advertiser-img-ke-jobs-prod/dealer-images/advid7366/adv7366_1509458147.jpg",
+        "company": "MSpace Solutions Ltd",
+        "description":"MSpace Solutions Ltd is looking for a candidate to add to their Innovation Team as a Junior Java Web Application Developer",
         "location":"Nairobi",
         "requirements":[
             "Ruby",
-            "R",
-            "Javascript"
+            "java",
+            "Javascript",
+            "python"
         ]
       },
       {
         "id": 4,
-        "job_type": "Design Engineer",
-        "image": "https://www.google.co.ke/images/branding/googlelogo/2x/googlelogo_color_160x56dp.png",
-        "company": "Google",
-        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit",
-        "location":"Nairobi",
+        "job_type": "Senior .NET Developer",
+        "image": "https://i.roamcdn.net/kazi/ke/hq/5399baaf49abff1b9724ab2bc97ff6b3/-/advertiser-img-ke-jobs-prod/dealer-images/advid17327/adv17327_1502683950.jpg",
+        "company": "Wise & Agile Solutions Ltd",
+        "description":"We are looking for energetic, progressive, indepedent, all-rounder DotNet developer for Full-time.",
+        "location":"Remote",
         "requirements":[
-            "Ruby",
-            "R",
+            "DotNet",
             "Javascript"
         ]
       },
@@ -56,20 +56,20 @@
         "id": 5,
         "job_type": "Microsoft Excel Expert / Problem Solver",
         "image": "https://i.roamcdn.net/kazi/ke/hq/9d017bed4ff1ea0e9f507b1c840903d9/-/advertiser-img-ke-jobs-prod/dealer-images/advid278394/adv278394_1654783727.jpg",
-        "company": "Google",
+        "company": "e-MPS",
         "description":"We are an online e-commerce team which helps UK companies develop their online selling platforms.",
         "location":"Remote",
         "requirements":[
-            "Ruby",
-            "R",
-            "Javascript"
+            "Excel",
+            "word",
+            "access"
         ]
       },
       {
         "id": 6,
         "job_type": "Design Engineer",
         "image": "https://i.roamcdn.net/kazi/ke/hq/0343593c5972a3175ded80902e5a6b63/-/advertiser-img-ke-jobs-prod/dealer-images/advid8713/adv8713_1482146740.jpg",
-        "company": "Google",
+        "company": "ICEA LION",
         "description":"Deliver software development projects using Agile, specifically SAFe (Scaled Agile Framework) development methodology",
         "location":"Nairobi",
         "requirements":[
