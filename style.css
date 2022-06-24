@@ -274,7 +274,7 @@ header{
   display: flex;
   gap: 25px;
   /* border: 2px solid red; */
-  padding: 25px;
+  padding: 26px;
 }
 
 .testimonials_items>.ex {
