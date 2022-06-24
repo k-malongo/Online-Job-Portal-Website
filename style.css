@@ -279,10 +279,12 @@ header{
 
 .testimonials_items>.ex {
   display: flex;
+  width: 33.3%;
   gap: 25px;
   border: 2px solid #d3d3d3;
   padding: 25px;
   flex-direction: column;
+  border-radius: 10px;
 }
 
 .testimonials_items>.ex>.up {
@@ -366,3 +368,6 @@ header{
     color:#aaa;
     margin-bottom:0;
   }
+
+  /* testimonials */
+  
