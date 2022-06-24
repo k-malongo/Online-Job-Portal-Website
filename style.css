@@ -131,7 +131,9 @@ header{
 .form-style-8 textarea,
 .form-style-8 select 
 {
-	box-sizing: border-box;
+	
+
+  box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	outline: none;
@@ -144,6 +146,7 @@ header{
 	margin-bottom: 10px;
 	font: 16px Arial, Helvetica, sans-serif;
 	height: 45px;
+
 }
 .form-style-8 textarea{
 	resize:none;
