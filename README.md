@@ -21,6 +21,7 @@ Server: Json-Server
 To deploy this project run
 
 ```bash
+ run server in terminal 'json-server --watch db.json'
  run index.html file 
 
  Alternatively you can do npm install then run 'npm start'
