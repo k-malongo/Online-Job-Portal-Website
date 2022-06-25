@@ -1,4 +1,4 @@
-console.log("hello world");
+// console.log("hello world");
 
 //display list of all jobs
 
@@ -28,6 +28,7 @@ const displayJobs = function () {
 
         let skills = document.createElement("div");
         skills.setAttribute("class", "job-label");
+
         let postedJob = document.createElement("div");
         postedJob.className = "job-posted";
 
@@ -51,8 +52,17 @@ const displayJobs = function () {
           // console.log(data)
           let label1 = document.createElement("a");
           label1.className = "label-a";
+          label1.id = "label";
           label1.innerText = data;
           skills.appendChild(label1);
+
+          // Creating a mouse over to change when mouse is over name
+          label1.addEventListener("mouseenter", function( event ) {   
+            event.target.style.color = "purple";
+          }, false);
+          label1.addEventListener("mouseleave", function( event ) {   
+            event.target.style.color = "";
+          }, false);
         });
 
         jobDetails.appendChild(h4);
@@ -80,79 +90,87 @@ const formClick = function () {
   //unhide the form
   let btn = document.getElementById("addJob");
   btn.addEventListener("click", () => {
-
     let v = btn.innerHTML;
     // alert(v)
-    if(v==="Create New Job"){
-      btn.innerHTML = "Create new job"
+    if (v === "Create New Job") {
+      btn.innerHTML = "Create new job";
       let form = document.getElementById("formDiv");
       form.style.display = "block";
-    }else{
-      btn.innerHTML = "Create New Job"
+    } else {
+      btn.innerHTML = "Create New Job";
       let form = document.getElementById("formDiv");
       form.style.display = "none";
     }
-})
+  });
 };
 
 //get details from form
 
-const addNewJob = function (){
+const addNewJob = function () {
   fm = document.getElementById("formClick");
   fm.addEventListener("submit", (e) => {
-   e.preventDefault();
-alert("olaa")
-let companyName = document.getElementById('input1').value
-let jobtype = document.getElementById('input2').value
-let jobDesc = document.getElementById('input3').value
-let imgUrl = document.getElementById('input4').value
-let location = document.getElementById('input5').value
-let skill1 = document.getElementById('input6').value
-let skill2 = document.getElementById('input7').value
-let skill3 = document.getElementById('input8').value
-  
-  addCharacter(jobtype,companyName,jobDesc,imgUrl,location,skill1,skill2,skill3);
-    // alert(name+" img - "+img)
-});
-function addCharacter(jobtype,companyName,jobDesc,imgUrl,location,skill1,skill2,skill3) {
-  fetch("http://localhost:3000/jobs/", {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-      Accept: "application/json",
-    },
-    body: JSON.stringify({
-      job_type: jobtype,
-      image : imgUrl,
-      company : companyName,
-      description : jobDesc,
-      location : location,
-      requirements : [skill1,skill2,skill3]   
+    e.preventDefault();
+    alert("olaa");
+    let companyName = document.getElementById("input1").value;
+    let jobtype = document.getElementById("input2").value;
+    let jobDesc = document.getElementById("input3").value;
+    let imgUrl = document.getElementById("input4").value;
+    let location = document.getElementById("input5").value;
+    let skill1 = document.getElementById("input6").value;
+    let skill2 = document.getElementById("input7").value;
+    let skill3 = document.getElementById("input8").value;
 
-    }),
-  })
-    .then(function (response) {
-      return response.json();
+    addCharacter(
+      jobtype,
+      companyName,
+      jobDesc,
+      imgUrl,
+      location,
+      skill1,
+      skill2,
+      skill3
+    );
+    // alert(name+" img - "+img)
+  });
+  function addCharacter(
+    jobtype,
+    companyName,
+    jobDesc,
+    imgUrl,
+    location,
+    skill1,
+    skill2,
+    skill3
+  ) {
+    fetch("http://localhost:3000/jobs/", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json",
+      },
+      body: JSON.stringify({
+        job_type: jobtype,
+        image: imgUrl,
+        company: companyName,
+        description: jobDesc,
+        location: location,
+        requirements: [skill1, skill2, skill3],
+      }),
     })
-    .then(function (data) {
-      console.log(data)
-    })
-    .catch((error) => console.log(error));
-}
+      .then(function (response) {
+        return response.json();
+      })
+      .then(function (data) {
+        console.log(data);
+      })
+      .catch((error) => console.log(error));
+  }
 
   //get elements by id
-  
 
-// addToJson(submit,companyName,jobDesc,imgUrl,location,skill1,skill2,skill3)
-}
+  // addToJson(submit,companyName,jobDesc,imgUrl,location,skill1,skill2,skill3)
+};
 
-// const addToJson = function(submit,companyName,jobDesc,imgUrl,location,skill1,skill2,skill3){
-
-// }
-addNewJob()
+addNewJob();
 formClick();
 displayJobs();
-
-
-
-

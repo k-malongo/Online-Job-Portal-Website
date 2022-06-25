@@ -235,6 +235,11 @@ header{
   background-color: var(--yellowColor);
 }
 
+/* on hover */
+.label-a:hover{
+  background-color: darksalmon;
+}
+
 .label-b{
   width: 60px;
   text-align: center;
